@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NeedSport">
         <activity
+            android:name=".CallCenter"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
