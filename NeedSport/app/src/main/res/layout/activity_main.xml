@@ -21,22 +21,22 @@
         app:srcCompat="@drawable/needsport" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_callCenter"
         style="@android:style/Widget.Holo.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/roundstyle"
-        android:textSize="20sp"
         android:text="@string/call_center"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_masuk"
         style="@android:style/Widget.Holo.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         android:background="@drawable/roundstyle"
         android:textSize="20sp"
         android:text="@string/masuk"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_callCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
