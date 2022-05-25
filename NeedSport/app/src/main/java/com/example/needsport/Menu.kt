@@ -38,5 +38,10 @@ class Menu : AppCompatActivity() {
             val intent = Intent(this, MainActivityPushupDeskripsi::class.java)
             startActivity(intent)
         }
+        val sitUpBtn: ImageView = findViewById(R.id.sit_up)
+        sitUpBtn.setOnClickListener() {
+            val intent = Intent(this, MainActivitySitupDeskripsi::class.java)
+            startActivity(intent)
+        }
     }
 }

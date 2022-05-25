@@ -4,8 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    tools:context=".MainActivityPushupTimer">
+    tools:context=".MainActivitySitupDeskripsi"
+    android:background="@drawable/bg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="682dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraint2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/purple_500"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="Sit up merupakan salah satu jenis latihan olahraga yang melatih beragam otot. Tidak hanya otot perut, namun juga otot dada, panggul, pinggang bagian bawah dan leher. Latihan ini membantu melatih kekuatan otot-otot tersebut, sehingga menjadi lebih kencang. \n \n Dalam pengertian yang lain, Sit-up atau baring duduk adalah bentuk latihan untuk menguatkan otot perut, punggung, dan otot inti dengan cara terlentang, menekuk lutut, kemudian mengangkat tubuh ke atas. Ketika sedang melakukan gerakan sit-up, bagian tubuh sebelah pinggul dan pantat menjadi tumpuan."
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint2"
@@ -49,32 +76,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <Button
-        android:id="@+id/timerBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/title_Timer"
-        app:layout_constraintBottom_toTopOf="@+id/constraint2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textViewCikti"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Timer 30 detik"
-        android:padding="10dp"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:layout_marginTop="128dp"
-        app:layout_constraintBottom_toTopOf="@+id/timerBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
