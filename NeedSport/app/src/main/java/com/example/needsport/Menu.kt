@@ -48,5 +48,10 @@ class Menu : AppCompatActivity() {
             val intent = Intent(this, MainActivityLungeDeskripsi::class.java)
             startActivity(intent)
         }
+        val plankBtn: ImageView = findViewById(R.id.plank)
+        plankBtn.setOnClickListener() {
+            val intent = Intent(this, MainActivityPlankDeskripsi::class.java)
+            startActivity(intent)
+        }
     }
 }

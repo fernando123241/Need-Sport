@@ -7,26 +7,26 @@ import android.os.SystemClock
 import android.widget.Button
 import android.widget.Chronometer
 
-class MainActivityLungeStopwatch : AppCompatActivity() {
+class MainActivityPlankStopwatch : AppCompatActivity() {
 
     var pauseAt : Long = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_lunge_stopwatch)
+        setContentView(R.layout.activity_main_plank_stopwatch)
 
         val actionBar = supportActionBar
-        actionBar!!.title = "Stopwatch - Lunge"
+        actionBar!!.title = "Stopwatch - Plank"
         actionBar.setDisplayHomeAsUpEnabled(true)
 
         val bajingan: Button = findViewById(R.id.btnDeskripsi)
         bajingan.setOnClickListener() {
-            val intent = Intent(this, MainActivityLungeDeskripsi::class.java)
+            val intent = Intent(this, MainActivityPlankDeskripsi::class.java)
             startActivity(intent)
         }
         val bajingan2: Button = findViewById(R.id.btnTimer)
         bajingan2.setOnClickListener() {
-            val intent = Intent(this, MainActivityLungeTimer::class.java)
+            val intent = Intent(this, MainActivityPlankTimer::class.java)
             startActivity(intent)
         }
         val btnStart : Button = findViewById(R.id.btnstart)
