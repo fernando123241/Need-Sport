@@ -1,12 +1,16 @@
 package com.example.needsport
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
+import android.widget.ImageButton
 import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 
 class Menu : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
@@ -27,9 +31,12 @@ class Menu : AppCompatActivity() {
             val dialog = builder.create()
             dialog.show()
             dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+        }
 
-
-
+        val pushUpBtn: ImageView = findViewById(R.id.push_up)
+        pushUpBtn.setOnClickListener() {
+            val intent = Intent(this, MainActivityPushupDeskripsi::class.java)
+            startActivity(intent)
         }
     }
 }

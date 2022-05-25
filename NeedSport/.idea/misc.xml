@@ -3,17 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/drawable/ic_baseline_description_24.xml" value="0.1555" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/drawable/roundstyle.xml" value="0.1555" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_call_center.xml" value="0.13" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_gggaminggaes.xml" value="0.18885869565217392" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_huhu.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_lari.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_main_pushup.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_main_pushup_deskripsi.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_main_pushup_stopwatch.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_main_pushup_timer.xml" value="0.18885869565217392" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_push_up.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/activity_push_up2.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/call_center.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/content_huhu.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_deskripsi.xml" value="0.18885869565217392" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_first.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_home.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_notifications.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_pushup_deskripsi.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_pushup_stopwatch.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_pushup_timer.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_stopwatch.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/fragment_timer.xml" value="0.18885869565217392" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/layout_popup.xml" value="0.21" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/pushup_deskripsi.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/pushup_stopwatch.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/layout/pushup_timer.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/menu/action_bar.xml" value="0.225" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/menu/bottom_nav_menu.xml" value="0.225" />
+        <entry key="..\:/Users/HP/Documents/GitHub/Need-Sport/NeedSport/app/src/main/res/menu/menu.xml" value="0.225" />
       </map>
     </option>
   </component>
