@@ -43,5 +43,10 @@ class Menu : AppCompatActivity() {
             val intent = Intent(this, MainActivitySitupDeskripsi::class.java)
             startActivity(intent)
         }
+        val lungeBtn: ImageView = findViewById(R.id.lunge)
+        lungeBtn.setOnClickListener() {
+            val intent = Intent(this, MainActivityLungeDeskripsi::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -10,17 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NeedSport">
         <activity
-            android:name=".MainActivitySitupTimer"
+            android:name=".MainActivityLungeTimer"
             android:exported="false"
             android:parentActivityName=".Menu"/>
+        <activity
+            android:name=".MainActivityLungeStopwatch"
+            android:exported="false"
+            android:parentActivityName=".Menu"/>
+        <activity
+            android:name=".MainActivityLungeDeskripsi"
+            android:exported="false"
+            android:parentActivityName=".Menu"/>
+        <activity
+            android:name=".MainActivitySitupTimer"
+            android:exported="false"
+            android:parentActivityName=".Menu" />
         <activity
             android:name=".MainActivitySitupStopwatch"
             android:exported="false"
-            android:parentActivityName=".Menu"/>
+            android:parentActivityName=".Menu" />
         <activity
             android:name=".MainActivitySitupDeskripsi"
             android:exported="false"
-            android:parentActivityName=".Menu"/>
+            android:parentActivityName=".Menu" />
         <activity
             android:name=".MainActivityPushupTimer"
             android:exported="false"
