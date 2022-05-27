@@ -10,17 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NeedSport">
         <activity
+            android:name=".MainLariStopwatchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainLariTimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainLariDeskripsiActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityPlankTimer"
             android:exported="false"
-            android:parentActivityName=".Menu"/>
+            android:parentActivityName=".Menu" />
         <activity
             android:name=".MainActivityPlankStopwatch"
             android:exported="false"
-            android:parentActivityName=".Menu"/>
+            android:parentActivityName=".Menu" />
         <activity
             android:name=".MainActivityPlankDeskripsi"
             android:exported="false"
-            android:parentActivityName=".Menu"/>
+            android:parentActivityName=".Menu" />
         <activity
             android:name=".MainActivityLungeTimer"
             android:exported="false"
