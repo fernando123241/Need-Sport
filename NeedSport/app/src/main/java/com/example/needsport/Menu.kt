@@ -53,5 +53,10 @@ class Menu : AppCompatActivity() {
             val intent = Intent(this, MainActivityPlankDeskripsi::class.java)
             startActivity(intent)
         }
+        val lariBtn: ImageView = findViewById(R.id.lari)
+        lariBtn.setOnClickListener() {
+            val intent = Intent(this, MainLariDeskripsiActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

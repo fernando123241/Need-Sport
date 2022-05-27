@@ -21,7 +21,7 @@ class MainLariStopwatchActivity : AppCompatActivity() {
 
         val bajingan: Button = findViewById(R.id.btnDeskripsi)
         bajingan.setOnClickListener() {
-            val intent = Intent(this, MainActivityLungeDeskripsi::class.java)
+            val intent = Intent(this, MainLariDeskripsiActivity::class.java)
             startActivity(intent)
         }
         val bajingan2: Button = findViewById(R.id.btnTimer)
